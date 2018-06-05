@@ -1,6 +1,6 @@
 <%@ page import="java.util.List" %>
 
-<%@ page import="bartek.j.model.Product" %><%--
+<%@ page import="ciborski.Product" %><%--
 
   Created by IntelliJ IDEA.
   User: Student
@@ -44,7 +44,7 @@
 %>
     </tbody>
 </table>
-<h2>Total price: <%=request.getAttribute("totalPrice")%></h2>
-<h2>Average price: <%=request.getAttribute("averagePrice")%></h2>
+<h2>Total price of products: <%=request.getAttribute("totalPrice")%></h2>
+<h2>Average price per product: <%=request.getAttribute("averagePrice")%></h2>
 </body>
 </html>

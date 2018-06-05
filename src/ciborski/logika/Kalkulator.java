@@ -4,13 +4,13 @@ import ciborski.Product;
 
 import java.util.List;
 
-public class ShoppingCalculator {
+public class Kalkulator {
 
-    public double totalPrice(List<Product> products){
+    public double total(List<Product> products){
         return  products.stream().mapToDouble(Product::getPrice).sum();
     }
 
-    public double averagePrice(List<Product> products){
+    public double average(List<Product> products){
         return  products.stream().mapToDouble(Product::getPrice).sum()/products.size();
     }
 }

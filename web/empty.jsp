@@ -8,10 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Empty</title>
+    <title>Empty Cart</title>
 </head>
 <body>
-    <h2>Please add something to the cart</h2>
-    <a href="/index.jsp">Click here to return</a>
+    <h2>You must add products to cart</h2>
+    <a href="/index.jsp">return</a>
 </body>
 </html>
