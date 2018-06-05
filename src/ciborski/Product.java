@@ -1,4 +1,4 @@
-package bartek.j.model;
+package ciborski;
 
 public class Product {
     private String name;

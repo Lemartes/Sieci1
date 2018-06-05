@@ -1,7 +1,7 @@
-package bartek.j.controller;
+package ciborski.controller;
 
-import bartek.j.busineslogic.ShoppingCalculator;
-import bartek.j.model.Product;
+import ciborski.logika.ShoppingCalculator;
+import ciborski.Product;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

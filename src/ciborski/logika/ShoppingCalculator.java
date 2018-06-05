@@ -1,6 +1,6 @@
-package bartek.j.busineslogic;
+package ciborski.logika;
 
-import bartek.j.model.Product;
+import ciborski.Product;
 
 import java.util.List;
 

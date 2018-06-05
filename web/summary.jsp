@@ -1,6 +1,6 @@
 <%@ page import="java.util.List" %>
 
-<%@ page import="bartek.j.model.Product" %><%--
+<%@ page import="ciborski.Product" %><%--
 
   Created by IntelliJ IDEA.
   User: Student
