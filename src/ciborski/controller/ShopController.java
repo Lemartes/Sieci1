@@ -1,7 +1,7 @@
 package ciborski.controller;
 
-import ciborski.logika.Kalkulator;
 import ciborski.Product;
+import ciborski.logika.Kalkulator;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
