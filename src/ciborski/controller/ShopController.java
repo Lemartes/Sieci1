@@ -15,8 +15,8 @@ import java.util.List;
 @WebServlet("/summary")
 public class ShopController extends HttpServlet {
 String product1, product2, product3, product4, price1, price2, price3, price4;
-Double totalPrice, averagePrice;
-    Kalkulator kalkulator = new Kalkulator();
+Double total, average;
+Kalkulator kalkulator = new Kalkulator();
 
 
     @Override
@@ -46,12 +46,12 @@ Double totalPrice, averagePrice;
         if(products.isEmpty()) {
             resp.sendRedirect("empty.jsp");
         }else {
-            totalPrice = kalkulator.total(products);
-            averagePrice = kalkulator.average(products);
+            total = kalkulator.total(products);
+            average = kalkulator.average(products);
 
             req.setAttribute("products", products);
-            req.setAttribute("totalPrice", totalPrice);
-            req.setAttribute("averagePrice", averagePrice);
+            req.setAttribute("total", total);
+            req.setAttribute("average", average);
             req.getRequestDispatcher("summary.jsp").forward(req, resp);
         }
     }
