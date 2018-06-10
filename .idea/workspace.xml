@@ -307,12 +307,12 @@
       <workItem from="1527180454461" duration="1079000" />
       <workItem from="1527185938540" duration="13624000" />
       <workItem from="1528214585283" duration="1602000" />
-      <workItem from="1528632349139" duration="1924000" />
+      <workItem from="1528632349139" duration="1944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22379000" />
+    <option name="totallyTimeSpent" value="22399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -337,7 +337,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34215885" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34215885" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12648009" />
       <window_info id="Web" order="6" side_tool="true" />
